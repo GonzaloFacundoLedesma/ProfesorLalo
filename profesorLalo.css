@@ -1,13 +1,13 @@
 /***********Custom Properties**************/
 :root {
-    --first-color: #3AA166;
-    --first-alpha-color: rgba(58, 161, 102, 0.75);
-    --second-color: #2D3B3B;
-    --second-alpha-color: rgba(45, 59, 59, 0.75);
+    --first-color: rgba(2, 81,89);
+    --first-alpha-color: rgba(2, 81,89, 0.75);
+    --second-color: #CCC;
+    --second-alpha-color: rgba(170, 170, 170, 0.75);
     --third-color: #165431;
     --third-alpha-color: rgba(22, 84, 49, 0.75);
-    --hover-shiryu:#A18F32;
-    --hover-alpha-shiryu: rgba(161,143,50,0.75);
+    --hover-shiryu:rgba(191,154,42);
+    --hover-alpha-shiryu: rgba(191,154,42,0.75);
     --redes-color:#4eb441;
     --white-color: #fff;
     --gray-light-color: #f3f3f3;
@@ -331,7 +331,7 @@ p {
 }
 
 .menu a:hover {
-    color: var(--hover-shiryu);
+    color: var(--hover-alpha-shiryu);
     background-color: var(--first-color);
 }
 
@@ -463,6 +463,15 @@ p {
     text-align: center;
     color: var(--title-color);
 }
+.section-title-secundaria {
+    border-top: thin solid var(--first-alpha-color);
+    border-bottom: thin solid var(--first-alpha-color);
+    margin: auto auto;
+    padding: 0.5rem 1rem;
+    width: 200px;
+    text-align: center;
+    color: var(--title-color);
+}
 
 .text-first-color {
     color: var(--first-color);
@@ -488,6 +497,10 @@ p {
     .full-lg-screen {
         width: 100%;
         min-height: 100vh;
+    }
+    .ochenta-lg-screen{
+        width: 100%;
+        min-height: 75vh;
     }
 
     .text-lg-center {
@@ -527,12 +540,12 @@ p {
 }
 
 .contact-card>svg {
-    fill: var(--redes-color);
+    fill: var(--first-color);
     width: 2rem;
     height: 2rem;
 }
 .contact-card> a svg{
-    fill: var(--redes-color);
+    fill: var(--first-color);
     width: 2.5rem;
     height: 2.5rem;
 }
