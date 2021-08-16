@@ -1,9 +1,9 @@
 /***********Custom Properties**************/
 :root {
-    --first-color: rgba(2, 81,89);
-    --first-alpha-color: rgba(2, 81,89, 0.75);
-    --second-color: #CCC;
-    --second-alpha-color: rgba(170, 170, 170, 0.75);
+    --first-color: rgba(22, 84, 49);
+    --first-alpha-color: rgba(22, 84, 49, 0.75);
+    --second-color: rgba(191,154,42);
+    --second-alpha-color: rgba(191,154,42,0.75);
     --third-color: #165431;
     --third-alpha-color: rgba(22, 84, 49, 0.75);
     --hover-shiryu:rgba(191,154,42);
@@ -331,7 +331,7 @@ p {
 }
 
 .menu a:hover {
-    color: var(--hover-alpha-shiryu);
+    text-decoration: underline;
     background-color: var(--first-color);
 }
 
